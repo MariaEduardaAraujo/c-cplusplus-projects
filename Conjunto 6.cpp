@@ -1,5 +1,5 @@
 /*
-// programa 22 - Switch e Case 
+// Programa 22 - Switch e Case 
 #include<iostream>
 #include<stdlib.h>
 
@@ -32,13 +32,13 @@ int main () {
 			cout << "Voce digitou a letra 'f' ou 'F' " << endl;
 			break;
 		default:
-			cout << "Você não digitou uma letra valida " << endl;
+			cout << "VocÃª nÃ£o digitou uma letra valida " << endl;
 	}
 	system("pause");
 	return 0;
 }
 
-// programa 23 - depuração I 
+// Programa 23 - depuraÃ§Ã£o I 
 #include <iostream>
 #include <stdlib.h>
 
@@ -75,7 +75,7 @@ int main (){
 	return 0;
 	
 }
-// programa 24 - blocos de instrução I
+// Programa 24 - blocos de instruÃ§Ã£o I
 #include <iostream>
 #include <stdlib.h>
 
