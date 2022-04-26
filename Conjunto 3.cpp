@@ -1,5 +1,5 @@
 /*
-// porgrama 10 - if & else
+// Programa 10 - if & else
 #include<iostream>
 #include<stdlib.h>
 
@@ -8,7 +8,7 @@ using namespace std;
 int main (){
     int i = 0, i2 =0;
     
-    cout << "Valor da varavel i: " << endl;
+    cout << "Valor da variavel i: " << endl;
     cin >> i;
     
     cout << "Valor da variavel i2: " << endl;
@@ -26,7 +26,7 @@ int main (){
     return 0;
 }
 
-// programa 11 - if & else
+// Programa 11 - if & else
 #include<iostream>
 #include<stdlib.h>
 
@@ -48,7 +48,7 @@ int main (){
     return 0;
 }
 
-// programa 12 - if & else
+// Programa 12 - if & else
 #include<iostream>
 #include<stdlib.h>
 
@@ -80,7 +80,7 @@ int main (){
     return 0;
 }
 
-// programa 13 - if & else
+// Programa 13 - if & else
 #include<iostream>
 #include<stdlib.h>
 
