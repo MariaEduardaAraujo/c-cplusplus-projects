@@ -1,5 +1,5 @@
 /*
-// programa 1 - Hello Wolrd
+// Programa 1 - Hello Wolrd
 #include<iostream>
 #include<stdlib.h>
 
@@ -12,7 +12,7 @@ int main(){
     return 0;
 }
 
-// programa 2 - soma
+// Programa 2 - soma
 #include<iostream>
 #include<stdlib.h>
 
@@ -28,7 +28,7 @@ int main(){
     return 0;
 }
 
-programa 3 - tipos de variaveis
+// Programa 3 - tipos de variaveis
 #include <iostream>
 #include <stdlib.h>
 
@@ -52,7 +52,7 @@ int main(){
     return 0;
 }
 
-// programa 4 - manipuladores de tipo
+// Programa 4 - manipuladores de tipo
 #include <iostream>
 #include <iomanip>
 
@@ -61,7 +61,7 @@ using namespace std;
 int main(){
     
     cout << "Estudando a entrada e a saida de dados." << endl;
-
+    cout << 10+50 << endl;
     cout << hex << 10+50 << endl;
 
     cout << setw(10) << 1;
@@ -76,7 +76,7 @@ int main(){
     return 0;
 }
 
-// programa 5 - inteiros
+// Programa 5 - inteiros
 #include <iostream>
 #include <stdlib.h>
 
