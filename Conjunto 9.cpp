@@ -1,5 +1,5 @@
 /*
-// programa 33 - calculando media com arreys
+// Programa 33 - calculando media com arreys
 #include<iostream>
 #include<stdlib.h>
 
@@ -7,7 +7,7 @@ using namespace std;
 
 int main () {
 	
-	//1) Entrada de 5 números
+	//1) Entrada de 5 nÃºmeros
 	double val[4];
 	
 	for(int i = 0; i<=3; i++){
@@ -15,7 +15,7 @@ int main () {
 		cin >> val[i];
 	}
 	
-	//2) Calculo da média
+	//2) Calculo da mÃ©dia
 	double total = 0;
 	
 	for (int i2 = 0; i2<=3; i2++){
@@ -29,7 +29,7 @@ int main () {
 	return 0;
 }
 
-// programa 34 - arreys bidimencionais
+// Programa 34 - arreys bidimencionais
 #include<iostream>
 #include<stdlib.h>
 
@@ -52,7 +52,7 @@ int main () {
 	return 0;
 }
 
-// programa 35 - laços aninhados
+// Programa 35 - laÃ§os aninhados
 #include<iostream>
 #include<stdlib.h>
 
@@ -67,9 +67,10 @@ int main () {
 	
 	system("pause");
 	return 0;
-}
+}/*NÃ£o funciona*/
 
-// programa 36 - função matricial
+/*
+// Programa 36 - funÃ§Ã£o matricial
 #include<iostream>
 #include<stdlib.h>
 
