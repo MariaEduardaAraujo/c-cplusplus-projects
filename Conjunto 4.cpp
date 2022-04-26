@@ -1,5 +1,5 @@
 /*
-//programa 14
+// Programa 14
 #include<iostream>
 #include<stdlib.h>
 
@@ -11,7 +11,7 @@ int main (){
     return 0;
 }
 
-//programa 15 - for
+// Programa 15 - for
 #include <iostream>
 #include<stdlib.h>
 
@@ -24,7 +24,7 @@ int main(){
     return 0;
 }
 
-// programa 16 - incremento e decremento 
+// Programa 16 - incremento e decremento 
 #include <iostream>
 #include <stdlib.h>
 
@@ -55,20 +55,20 @@ int main(){
 	return 0;
 }
 
-// porgrama 17 - tabuada 
+// Programa 17 - tabuada 
 #include <iostream>
 #include <stdlib.h>
 
 using namespace std;
 
 int main(){
-	// 1) Perguntar qual a tabuada para o usu·rio e armazenar 
-	//o valor em uma vari·vel
+	// 1) Perguntar qual a tabuada para o usu√°rio e armazenar 
+	//o valor em uma vari√°vel
 	int n = 0;
 	cout << "Informe a tabuada desejada: ";
 	cin >> n;
 	
-	// 2) Implementar um laÁo de repetiÁ„o for
+	// 2) Implementar um la√ßo de repeti√ß√£o for
 	for(int i = 1; i<=10; i++){
 		// 3) Imprimir a tabuada na tela
 		cout << i << " x " << n << " = " << i*n << endl;
@@ -78,21 +78,21 @@ int main(){
 	return 0;
 }
 
-// programa 18 - while
+// Programa 18 - while
 #include <iostream>
 #include <stdlib.h>
 
 using namespace std;
 
 int main(){
-	// imprimindo de 0 atÈ 100
+	// imprimindo de 0 at√© 100
 	int num = 0;
 	while(num <= 100){
 		cout << num << endl;
 		num += 1; // num = num + 1; ou num++;	
 	}
 	
-	// imprimindo de 99 atÈ 0
+	// imprimindo de 99 at√© 0
 	int num2 = 100;
 	while(num >= 0){
 		cout << num << endl;
