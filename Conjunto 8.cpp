@@ -54,10 +54,7 @@ int main(){
 	return 0;
 } 
 
-/*Não funciona????*/
-
-/*
-// Programa 32 - arrays
+// Programa 32.1 - arrays
 #include<iostream>
 #include<stdlib.h>
 
@@ -85,7 +82,7 @@ int main(){
 	return 0;
 }
 
-// Programa 32 - arrays - definições
+// Programa 33 - arrays - definições
 #include<iostream>
 #include<stdlib.h>
 
