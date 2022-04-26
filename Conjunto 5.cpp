@@ -1,5 +1,5 @@
 /*
-// programa 19 - programa em looping
+// Programa 19 - programa em looping
 #include <iostream>
 #include <stdlib.h>
 
@@ -15,7 +15,7 @@ int main(){
 	return 0;
 }
 
-//programa 20 - estrutura Do-while
+// Programa 20 - estrutura Do-while
 #include <iostream>
 #include <stdlib.h>
 
@@ -44,7 +44,7 @@ int main(){
 	return 0;
 }
 
-// programa 21 - estrutura de seleção switch
+// Programa 21 - estrutura de seleÃ§Ã£o switch
 #include <iostream>
 #include <stdlib.h>
 
@@ -63,7 +63,7 @@ int main (){
 			cout << "Fevereiro" << endl;
 			break;
 		case 3:
-			cout << "Março" << endl;
+			cout << "MarÃ§o" << endl;
 			break;
 		case 4:
 			cout << "Abril" << endl;
