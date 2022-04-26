@@ -1,5 +1,5 @@
 /*
-// programa 6 - modificadores de tipo
+// Programa 6 - modificadores de tipo
 #include<iostream>
 #include<stdlib.h>
 
@@ -30,7 +30,7 @@ int main (){
     return 0;
 }
 
-// programa 7 - operações matemáticas
+// Programa 7 - operaÃ§Ãµes matemÃ¡ticas
 #include<iostream>
 #include<stdlib.h>
 
@@ -56,7 +56,7 @@ int main (){
     return 0;
 }
 
-// programa 8 - calculadora 
+// Programa 8 - calculadora 
 #include<iostream>
 #include<stdlib.h>
 
@@ -85,7 +85,7 @@ int main (){
     return 0;
 }
 
-// porgrama 9 - modulo
+// Porgrama 9 - modulo
 #include<iostream>
 #include<stdlib.h>
 
