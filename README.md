@@ -1,2 +1,4 @@
 # Cplusplus-Projects
-Estes projetos foram criados em C++ durante aulas que na escola, como forma de atividades e/ou provas. Sendo assim, podem não faz sentido completo, pois são apenas respostas de questões antigas.
+Este projeto foi desenvolvido com base no curso de C++ do canal eXcript 🖥🖱
+
+https://youtube.com/playlist?list=PLesCEcYj003QTw6OhCOFb1Fdl8Uiqyrqo
