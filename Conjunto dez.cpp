@@ -1,5 +1,5 @@
 /*
-// programa 37 - manipulação de planilhas
+// Programa 37 - manipulaÃ§Ã£o de planilhas
 #include<iostream>
 #include<stdlib.h>
 
@@ -8,7 +8,7 @@ using namespace std;
 int main(){
 	
 	
-	//1) Criar uma planilha com valores aleatórios
+	//1) Criar uma planilha com valores aleatÃ³rios
 	double plan[5][6] = {};
 	
 	for(int x=0; x<5; x++){
@@ -43,7 +43,7 @@ int main(){
 	return 0;
 }
 
-// programa 38 - estruturas - struct
+// Programa 38 - estruturas - struct
 #include<iostream>
 #include<stdlib.h>
 
@@ -73,7 +73,7 @@ int main(){
 	return 0;
 }
 
-// programa 39 - ultilizando struct
+// Programa 39 - ultilizando struct
 #include<iostream>
 #include<stdlib.h>
 
