@@ -1,5 +1,5 @@
 /*
-// programa 30 - prcedencia de operadores
+// Programa 30 - prcedencia de operadores
 #include<iostream>
 #include<stdlib.h>
 
@@ -16,7 +16,7 @@ int main(){
 	return 0;
 }
 
-// programa 31 - associtividade de operadores
+// Programa 31 - associtividade de operadores
 #include<iostream>
 #include<stdlib.h>
 
@@ -25,7 +25,7 @@ using namespace std;
 int main(){
 	
 	int y = 0;
-	y = 3*3+(2+2); // associaçao da esquerda para a direita 
+	y = 3*3+(2+2); // associaÃ§ao da esquerda para a direita 
 	
 	int a = 1, b = 2, c = 3;
 	y+=a+=b+=c+=1;
@@ -36,7 +36,7 @@ int main(){
 	return 0;
 }
 
-// programa 32 - arrays
+// Programa 32 - arrays
 #include<iostream>
 #include<stdlib.h>
 
@@ -50,12 +50,14 @@ int main(){
 	double valores[100];
 	valores[50] = 5.55;
 	
-	
 	system("pause");
 	return 0;
-}
+} 
 
-// programa 32 - arrays
+/*NÃ£o funciona????*/
+
+/*
+// Programa 32 - arrays
 #include<iostream>
 #include<stdlib.h>
 
@@ -83,7 +85,7 @@ int main(){
 	return 0;
 }
 
-// programa 32 - arrays - definições
+// Programa 32 - arrays - definiÃ§Ãµes
 #include<iostream>
 #include<stdlib.h>
 
