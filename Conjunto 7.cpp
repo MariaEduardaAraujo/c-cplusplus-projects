@@ -1,5 +1,5 @@
 /*
-// programa 25 - blocos de instruçção III
+// Programa 25 - blocos de instruÃ§Ã§Ã£o III
 #include <iostream>
 #include <stdlib.h>
 
@@ -25,7 +25,7 @@ int main (){
 	return 0;
 }
 
-// programa 26 - operação ternaria I
+// Programa 26 - operaÃ§Ã£o ternaria I
 #include<iostream>
 #include<stdlib.h>
 
@@ -44,7 +44,7 @@ int main(){
 	return 0;
 }
 
-// programa 27 - operação ternaria II
+// Programa 27 - operaÃ§Ã£o ternaria II
 #include<iostream>
 #include<stdlib.h>
 
@@ -58,7 +58,7 @@ int main(){
 	
 	string mes = (num==1) ? "Janeiro":
 		         (num==2) ? "Fevereiro":
-		         (num==3) ? "Março":
+		         (num==3) ? "MarÃ§o":
 			     (num==4) ? "Abril":
 		         (num==5) ? "Maio":
 		         (num==6) ? "Junho":	         	
@@ -75,7 +75,7 @@ int main(){
 	return 0;
 }
 
-// programa 28 - instruçao break II
+// Programa 28 - instruÃ§ao break II
 #include<iostream>
 #include<stdlib.h>
 
@@ -96,7 +96,7 @@ int main(){
 	return 0;
 }
 
-//programa 29 - instrução continue
+// Programa 29 - instruÃ§Ã£o continue
 #include<iostream>
 #include<stdlib.h>
 
