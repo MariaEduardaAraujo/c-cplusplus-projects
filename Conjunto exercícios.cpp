@@ -21,7 +21,7 @@ int main(){
 	return 0;
 }
 
-// OperaÁ„o matem·tica
+// Opera√ß√£o matem√°tica
 #include<iostream>
 #include<stdlib.h>
 
@@ -40,7 +40,7 @@ int main(){
 	return 0;
 }
 
-// MÈdia necess·ria
+// M√©dia necess√°ria
 #include <iostream>
 #include <stdlib.h>
 
