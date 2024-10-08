@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include <stddef.h>
 
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]){
     printf("Tamanho do tipo char: %zu bytes\n", sizeof(char));
     printf("Tamanho do tipo int: %zu bytes\n", sizeof(int));
     printf("Tamanho do tipo float: %zu bytes\n", sizeof(float));
