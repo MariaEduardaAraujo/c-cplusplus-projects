@@ -1,0 +1,98 @@
+---
+### Tipos e Especificadores de Formato
+
+- `size_t`: Tipo de dado definido na linguagem C, utilizado para representar tamanhos de objetos 
+em bytes. Geralmente, é um tipo sem sinal, garantindo que valores negativos não sejam usados para tamanho.
+  
+- `scanf("%d", &a)`: Usado para ler um valor inteiro digitado pelo usuário e armazená-lo na variável `a`.
+
+- **Especificadores de formato para entrada/saída**:
+  - `%d`: Inteiros com sinal (tipo `int`).
+  - `%u`: Inteiros sem sinal (tipo `unsigned int`).
+  - `%ld`: Inteiros longos com sinal (tipo `long`).
+  - `%lu`: Inteiros longos sem sinal (tipo `unsigned long`).
+  - `%lld`: Inteiros muito longos com sinal (tipo `long long`).
+  - `%llu`: Inteiros muito longos sem sinal (tipo `unsigned long long`).
+ 
+  - `%f`: Números de ponto flutuante (tipo `float` e `double`).
+  - `%lf`: Números de ponto flutuante do tipo `double` (embora `%f` também funcione para `double` em `printf`).
+  - `%e` ou `%E`: Notação científica (usada para valores `float` e `double`).
+  - `%g` ou `%G`: Exibe o valor em `%f` ou `%e`, dependendo de qual for mais curto.
+  
+  - `%c`: Um único caractere.
+  - `%s`: Cadeias de caracteres (`strings`), que são arrays de caracteres.
+  - `%p`: Ponteiros, exibidos em formato hexadecimal.
+  - `%o`: Inteiros em base octal.
+  - `%x` ou `%X`: Inteiros em base hexadecimal (minúsculo para `%x`, maiúsculo para `%X`).
+
+---
+### Operadores Aritméticos
+
+- `+`: Adição.
+- `-`: Subtração.
+- `*`: Multiplicação.
+- `/`: Divisão (divisão inteira quando ambos os operandos são inteiros).
+- `%`: Módulo (resto da divisão inteira).
+
+---
+### Operadores de Comparação
+
+- `==`: Igualdade.
+- `!=`: Desigualdade.
+- `>`: Maior que.
+- `<`: Menor que.
+- `>=`: Maior ou igual a.
+- `<=`: Menor ou igual a.
+
+---
+### Operadores Lógicos
+
+- `&&`: E lógico (retorna verdadeiro se ambos os operandos forem verdadeiros).
+- `||`: Ou lógico (retorna verdadeiro se pelo menos um dos operandos for verdadeiro).
+- `!`: Não lógico (inverte o valor de verdade).
+
+---
+### Operadores Bitwise (Operações em Nível de Bits)
+
+- `&`: E bit a bit. Compara cada bit dos dois operandos e retorna 1 onde ambos os bits são 1.
+  
+  Exemplo:
+  int a = 5;  // 0101 em binário
+  int b = 3;  // 0011 em binário
+  int resultado = a & b;  // 0001 em binário (resultado = 1)
+
+- `|`: Ou bit a bit. Compara cada bit dos dois operandos e retorna 1 onde pelo menos um dos bits é 1.
+  
+  Exemplo:
+  int resultado = a | b;  // 0111 em binário (resultado = 7)
+
+- `^`: Ou exclusivo (XOR) bit a bit. Retorna 1 onde os bits são diferentes.
+  
+  Exemplo:
+  int resultado = a ^ b;  // 0110 em binário (resultado = 6)
+
+- `~`: Não bit a bit (inverte os bits).
+
+- `<<`: Deslocamento à esquerda. Desloca os bits para a esquerda, preenchendo os bits da direita com 0. 
+Isso é equivalente a multiplicar o valor por 2 elevado ao número de deslocamentos.
+  
+  Exemplo:
+  int resultado = a << 1;  // 1010 em binário (resultado = 10)
+
+- `>>`: Deslocamento à direita. Desloca os bits para a direita. O comportamento depende se o número é 
+com ou sem sinal.
+  
+  Exemplo:
+  int resultado = a >> 1;  // 0010 em binário (resultado = 2)
+
+---
+### Operadores de Atribuição
+
+- `=`: Atribuição simples.
+- `+=`: Adição e atribuição (equivalente a `a = a + b`).
+- `-=`: Subtração e atribuição.
+- `*=`: Multiplicação e atribuição.
+- `/=`: Divisão e atribuição.
+- `%=`: Módulo e atribuição.
+
+---

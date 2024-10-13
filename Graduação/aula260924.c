@@ -150,25 +150,3 @@ int main(){
     printf("A temperatura em graus Celcius eh: %d graus", cel);
     return 0;
 }*/
-
-/*9. Leia uma quantidade de chuva dada em polegadas e imprima o equivalente em milímetros
-(25,4 mm = 1 polegada).
-
-int main(){
-    int chuva, conv;
-
-    printf("Digite a quantidade de chuva em polegadas: ");
-    scanf("%d: ", &chuva);
-
-    conv = (chuva*25.4);
-    printf("A quantidade de chuva em milimetros eh: %d milimetros", conv);
-    return 0;
-}*/
-
-/*10. O cardápio de uma lanchonete é dado abaixo. Prepare um algoritmo que leia a quantidade
-de cada item que você consumiu e calcule a conta final. 
-Hambúrguer.... R$ 3,00, 
-Cheeseburger.... R$ 2,50
-Fritas.... R$ 2,50
-Refrigerante.... R$ 1,00*/
-
