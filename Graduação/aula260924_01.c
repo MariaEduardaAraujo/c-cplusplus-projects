@@ -72,14 +72,15 @@ int main(){
 programa serão a largura e a altura do triângulo.
 
 int main(){
-    float larg, alt, area; //,perimetro;
+    float base, altura, area; 
+    //float perimetro;
 
     printf("Digite a altura do triangulo retangulo: ");
-    scanf("%f", &alt);
+    scanf("%f", &altura);
     printf("Digite a largura do triangulo retangulo: ");
-    scanf("%f", &larg);
+    scanf("%f", &base);
 
-    area = alt*larg/2;
+    area = alt*base/2;
     printf("A area do triangulo eh: %f ", area);
 
     return 0;
