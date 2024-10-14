@@ -45,35 +45,73 @@ int main(){
 /*11) Uma companhia de carros paga a seus empregados um salário de R$ 500,00 por mês mais
 uma comissão de R$ 50,00 para cada carro vendido e mais 5% do valor da venda. Elabore um
 algoritmo para calcular e imprimir o salário do vendedor num dado mês recebendo como dados
-de entrada o nome do vendedor, o número de carros vendidos e o valor total das vendas.*/
+de entrada o nome do vendedor, o número de carros vendidos e o valor total das vendas.
 
 int main(){
-    char nome;
-    int valorVenda, numCarros, salario;
-    float porcent;
+    char nome[100];
+    int numCarros;
+    float porcent, valorVenda, salario;
 
     printf("Digite o nome do vendedor: ");
-    scanf("%s", &nome);
+    scanf("%s", nome);
     printf("Digite o numero de carros vendidos: ");
     scanf("%d", &numCarros);
     printf("Digite o valor total das vendas: ");
-    scanf("%d", &valorVenda);
-    
-    porcent = (valorVenda-5/100);
-    salario = (500+(50*numCarros))+porcent;
+    scanf("%f", &valorVenda);
+
+    porcent = valorVenda * 0.05;
+    salario = 500 + (50 * numCarros) + porcent;
+
     
     printf("O salaro do vendedor %s\n", nome);
-    printf("Sera de: %d ", salario);
+    printf("Sera de: %.2f ", salario);
     return 0;
-}
-
+}*/
 
 /*12) Faça um algoritmo que calcule a área e o perímetro de um triângulo retângulo. As entradas do
-programa serão a largura e a altura do triângulo.*/
+programa serão a largura e a altura do triângulo.
+
+int main(){
+    float larg, alt, area; //,perimetro;
+
+    printf("Digite a altura do triangulo retangulo: ");
+    scanf("%f", &alt);
+    printf("Digite a largura do triangulo retangulo: ");
+    scanf("%f", &larg);
+
+    area = alt*larg/2;
+    printf("A area do triangulo eh: %f ", area);
+
+    return 0;
+}*/
 
 /*13) Escreva um algoritmo para ler o número total de eleitores de um município, o número de
 votos brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em
-relação ao total de eleitores.*/
+relação ao total de eleitores.
+
+int main(){
+    int numEleit; 
+    float vtBrancos, vtNulos, vtValidos;
+    float percBrancos, percNulos, percValidos;
+
+    printf("Digite o numero de eleitores do seu municipio: ");
+    scanf("%d", &numEleit);
+    printf("Digite o numero de votos brancos: ");
+    scanf("%f", &vtBrancos);
+    printf("Digite o numero de votos nulos: ");
+    scanf("%f", &vtNulos);
+    printf("Digite o numero de votos validos: ");
+    scanf("%f", &vtValidos);
+
+    percBrancos = (vtBrancos/numEleit)*100;
+    percNulos = (vtNulos/numEleit)*100;
+    percValidos = (vtValidos/numEleit)*100;
+
+    printf("O percentual de votos brancos foi de: %.2f por cento dos votos \n", percBrancos);
+    printf("O percentual de votos nulos foi de: %.2f por cento dos votos \n", percNulos);
+    printf("O percentual de votos validos foi de: %.2f por cento dos votos", percValidos);
+    return 0;
+}*/
 
 /*14) Escreva um algoritmo para ler o salário mensal atual de um funcionário e o percentual de
 reajuste. Calcular e escrever o valor do novo salário.*/
