@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Lista 05
+
 /*1) Leia 5 valores para uma variável A. A seguir mostre quantos valores digitados foram pares,
 quantos valores digitados foram ímpares, quantos foram positivos e quantos foram negativos.
 
@@ -49,3 +51,17 @@ int main(){
     printf("A soma dos numeros pares de 1 a 100 eh: %d", soma);
     return 0;
 }*/
+
+/*6) Apresente todos os números divisíveis por 5 que sejam maiores do que 0 e menores ou
+iguais a 200.*/
+
+int main(){
+    int i = 0;
+    printf("Os numeros inteiros entre 0 e 200 que sao divisiveis por 5 sao: \n");
+    for (i = 1; i <= 200; i++){
+        if (i % 5 == 0){
+            printf("%d\n", i);
+        }
+    }
+    return 0;
+}
