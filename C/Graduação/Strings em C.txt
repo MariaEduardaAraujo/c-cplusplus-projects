@@ -71,20 +71,19 @@
     strncat(saudacao, "Planeta Terra", 7); // Concatena apenas "Planeta"
     printf("%s\n", saudacao);
 
-    - `strchr`: Localiza a primeira ocorrência de um caractere em uma string.  
+ - `strchr`: Localiza a primeira ocorrência de um caractere em uma string.  
     Exemplo:
         char *pos = strchr("Programação", 'a');
         if (pos) {
             printf("Encontrado: %s\n", pos);
         }
 
-    - `strstr`: Localiza a primeira ocorrência de uma substring em uma string.  
+ - `strstr`: Localiza a primeira ocorrência de uma substring em uma string.  
     Exemplo: 
         char *sub = strstr("Programação em C", "em");
         if (sub) {
             printf("Substring encontrada: %s\n", sub);
         }
-    
 ---
 ### Funções de Conversão
 
