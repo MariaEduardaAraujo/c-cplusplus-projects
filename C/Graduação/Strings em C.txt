@@ -1,0 +1,109 @@
+---
+### Funções de Entrada/Saída de Strings
+
+- `fgets`:  Lê uma string (incluindo espaços) de uma entrada (como teclado ou arquivo).  Sua sintaxe é char *fgets(char *str, int size, FILE *stream);
+   Exemplo: 
+    char nome[100];
+    printf("Digite seu nome: ");
+    fgets(nome, sizeof(nome), stdin);
+    nome[strcspn(nome, "\n")] = '\0'; // Remove o '\n'
+    printf("Olá, %s\n", nome);
+
+- `scanf`: Lê uma string até o primeiro espaço em branco.  Sua sintaxe é scanf("%s", nome);
+   Exemplo:  
+    char nome[100];
+    printf("Digite uma palavra: ");
+    scanf("%99s", nome); // Limita leitura a 99 caracteres
+    printf("Você digitou: %s\n", nome);
+
+- `puts`: Imprime uma string seguida por um caractere de nova linha (`\n`).  
+   Exemplo:
+    char saudacao[] = "Bem-vindo!";
+    puts(saudacao);
+
+- `printf`: Imprime uma string com formatação.  
+   Exemplo:
+    char nome[] = "Maria";
+    printf("Olá, %s!\n", nome);
+
+---
+### Funções de Manipulação de Strings (`<string.h>`)
+
+- `strlen`: Retorna o comprimento de uma string (excluindo o caractere nulo `\0`).  
+   Exemplo:
+    char texto[] = "Linguagem C";
+    printf("Tamanho: %lu\n", strlen(texto));
+
+- `strcpy`: Copia uma string para outra. Sua sintaxe é char *strcpy(char *dest, const char *src);
+   Exemplo:
+    char origem[] = "C é divertido!";
+    char destino[50];
+    strcpy(destino, origem);
+    printf("Destino: %s\n", destino);
+
+- `strncpy`: Copia até os primeiros `n` caracteres de uma string.  
+   Exemplo:
+    char origem[] = "Programação";
+    char destino[20];
+    strncpy(destino, origem, 5); // Copia apenas os 5 primeiros caracteres
+    destino[5] = '\0'; // Adiciona o caractere nulo manualmente
+    printf("Destino: %s\n", destino);
+
+- `strcmp`: Compara duas strings lexicograficamente.  
+  - Retorna:
+    - `0`: Strings iguais.
+    - Valor negativo: A primeira string é "menor".
+    - Valor positivo: A primeira string é "maior".
+   Exemplo:  
+    if (strcmp("C", "C++") < 0) {
+        printf("C vem antes de C++\n");
+    }
+
+- `strcat`: Concatena uma string ao final de outra.  
+   Exemplo:  
+    char saudacao[50] = "Olá, ";
+    strcat(saudacao, "Mundo!");
+    printf("%s\n", saudacao);
+
+- `strncat`: Concatena até `n` caracteres de uma string ao final de outra.  
+   Exemplo:
+    char saudacao[50] = "Olá, ";
+    strncat(saudacao, "Planeta Terra", 7); // Concatena apenas "Planeta"
+    printf("%s\n", saudacao);
+
+    - `strchr`: Localiza a primeira ocorrência de um caractere em uma string.  
+    Exemplo:
+        char *pos = strchr("Programação", 'a');
+        if (pos) {
+            printf("Encontrado: %s\n", pos);
+        }
+
+    - `strstr`: Localiza a primeira ocorrência de uma substring em uma string.  
+    Exemplo: 
+        char *sub = strstr("Programação em C", "em");
+        if (sub) {
+            printf("Substring encontrada: %s\n", sub);
+        }
+    
+---
+### Funções de Conversão
+
+- `atoi`: Converte uma string para um número inteiro.  
+   Exemplo:  
+    char numero[] = "123";
+    int valor = atoi(numero);
+    printf("Valor inteiro: %d\n", valor);
+
+- `atof`: Converte uma string para um número em ponto flutuante.  
+   Exemplo:  
+    char numero[] = "123.45";
+    double valor = atof(numero);
+    printf("Valor float: %.2f\n", valor);
+
+- `sprintf`: Formata uma string e armazena o resultado em um buffer.  
+   Exemplo: 
+    char buffer[50];
+    sprintf(buffer, "O número é %d", 42);
+    printf("%s\n", buffer);
+ 
+---
